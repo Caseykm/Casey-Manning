@@ -46,7 +46,6 @@
   font-family: 'Lucida Grande';
 }
 .intro {
-  /* background-image: linear-gradient(to top, #608899 0%,#8c8e8b 100%); */
   background-color: #608899;
   width: 70% auto;
   margin: 2%;
@@ -59,7 +58,6 @@
   font-size:150%;
 }
 .skills {
-  /* background-image: linear-gradient(to top, #ce8b45 0%, #8c8e8b,#8c8e8b 100%); */
   background-color: #608899;
   width: 60% auto;
   margin: 2%;
@@ -83,17 +81,4 @@
   form {
     width: 90%;
   }
-
 }
-
-/* .container {
-  height: 100%;
-  display: grid
-  grid-gap: 3px
-  grid-template-column: repeat(12, 1fr);
-  grid-template-rows: 40px auto 40px;
-  grid-template-areas:
-  "t h h h h h h h h h h h"
-  "c c c c c c c c c c c c"
-  "f f f f f f f f f f f f"
-} */
