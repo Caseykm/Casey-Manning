@@ -45,6 +45,18 @@
   background-repeat: no-repeat;
   font-family: 'Lucida Grande';
 }
+
+@media screen and (max-width: 600px) {
+  p1,p2 {
+      font-size: 70%;
+  }
+}
+@media screen and (max-width: 360px) {
+  p1.p2 {
+      font-size: 45%;
+  }
+}
+
 .intro {
   background-color: #608899;
   width: 70% auto;
@@ -77,8 +89,23 @@
   color: #242021
 }
 
+@media (max-width: 700px) {
+.intro
+  {
+    font:20px;
+    width: 50%;
+  }
+}
+/* @media screen and (max-device-width : 1204px)
+{
+  body or yourdiv element
+  {
+    font:<size>px/em/cm;
+  }
+}
+
 @media (max-width: 900px) {
   form {
     width: 90%;
   }
-}
+} */
